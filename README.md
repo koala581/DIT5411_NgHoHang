@@ -48,7 +48,7 @@ Each model trained for eight epochs with a batch size of 32, the Adam optimizer,
 
 Training metrics were recorded during the selected epoch with augmentation enabled. Test metrics were measured using the saved weights on unaugmented images in inference mode.
 
-![Training accuracy and loss by epoch, with test accuracy for each model](results_diagnostic_v4/model_comparison.png)
+![Training accuracy and loss by epoch, with test accuracy for each model](model_comparison.png)
 
 ### Exact-duplicate audit
 
