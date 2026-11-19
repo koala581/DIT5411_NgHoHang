@@ -1,0 +1,6 @@
+tensorflow[and-cuda]==2.20.0
+numpy
+pandas
+matplotlib
+jupyterlab
+ipykernel
