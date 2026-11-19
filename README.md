@@ -56,7 +56,7 @@ Training and test file paths were disjoint. A separate comparison of image dimen
 
 ## Reproducing the experiment
 
-1. Set up WSL2 Ubuntu, Python 3.12, TensorFlow 2.20.0 with GPU support, and JupyterLab. See the [environment setup guide](SETUP_EN.md).
+1. Use WSL2 Ubuntu and Python 3.12. In an activated virtual environment, install the dependencies with pip install -r requirements.txt.
 2. Download and extract the [full dataset](https://github.com/chenkenanalytic/handwritting_data_all) so that the character folders are directly under `~/DIT5411/dataset/cleaned_data/`.
 3. Open the project's handwriting recognition notebook in JupyterLab. Run Steps 1–8 to prepare the data, then Steps 9–15 to define and train the models.
 4. Run Steps 16–18 to evaluate the saved checkpoints and export the comparison table, figure and Markdown results. The notebook writes these files under `~/DIT5411/results_diagnostic_v4/`.
